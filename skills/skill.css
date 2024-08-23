@@ -1,0 +1,27 @@
+.skill {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  flex-direction: column;
+  font-size: 20px;
+}
+.code {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 10px 30px;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #bbbcfe, #f3f2ff);
+  cursor: pointer;
+}
+.code:hover {
+  background: linear-gradient(90deg, #f3f2ff, #bbbcfe);
+  scale: 1.01;
+  transition: 0.5s;
+}
+h1.top {
+  font-size: 30px;
+  padding-left: 30px;
+  margin-top: 30px;
+  color: #1333c2;
+}

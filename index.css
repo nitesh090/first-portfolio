@@ -1,0 +1,67 @@
+.home {
+  padding: 10px;
+  gap: 30px;
+  text-align: left;
+  height: 100vh;
+  gap: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home .texts {
+  font-size: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+.home h1 {
+  color: #1333c2;
+  font-size: 40px;
+}
+.home p {
+  justify-content: center;
+  align-items: center;
+}
+.home .imgBox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home img {
+  height: 400px;
+  background: linear-gradient(180deg, #bbbcfe, #f3f2ff);
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: #072a9b;
+  color: #fff;
+  letter-spacing: 1px;
+  width: fit-content;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #1333c2;
+}
+.contact {
+  padding: 30px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 20px;
+}
+.contact h1 {
+  font-size: 40px;
+  color: #1333c2;
+}
